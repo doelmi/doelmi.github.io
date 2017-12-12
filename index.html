@@ -1,7 +1,372 @@
 <!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
 <html>
-<body>
-<h1>Hello World</h1>
-  <p>My Name is Abdullah Fahmi</p>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Welcome to Doelmi.id</title>
+        <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+        <style>
+            .gambar{
+                width: 100vw;
+                height: 105vh;
+                background-image: url('img/bg2.jpg');
+                background-position: top center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: fixed;
+                display: table-cell;
+                vertical-align: middle;
+                text-align: center;
+            }
+
+            .gambar-bawah{
+                background-image: url('img/bg2.jpg');
+                background-position: bottom center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: fixed;
+            }
+
+            h1 .ukuran{
+                font-size: 70px;
+            }
+            h2 .ukuran{
+                font-size: 30px;
+            }
+            .miring{
+                font-style: italic;
+            }
+            .putih{
+                color: white;
+            }
+            .margin-atas-10px{
+                margin-top: 30px;
+            }
+            .deskripsi{
+                font-size: 22px;
+                text-align: center;
+            }
+            .tengah{
+                text-align: center;
+                margin-bottom: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="ui grid">
+            <div class="sixteen grid">
+                <div class="gambar">
+                    <h1 class="ui header"><span class="ukuran putih">Welcome to Doelmi.id</span></h1>
+                    <h2 class="ui header"><span class="ukuran putih miring">"There is no certainty for success, but the fear of trying is the certainty to fail"</span></h2>
+                    <a id="getStarted">
+                        <button class="ui button inverted massive" style="margin-top: 30px;">Get Started!</button>
+                        <br>
+                        <i class="fitted link chevron down icon big inverted"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="isi" class="ui grid container ">
+            <div class="sixteen wide column">
+                <div class="ui secondary pointing menu">
+                    <a class="active item">
+                        <i class="home icon"></i>Home
+                    </a>
+                    <a class="item">
+                        <i class="building icon"></i>Classroom
+                    </a>
+                    <a class="item">
+                        <i class="sticky note icon"></i>Blog
+                    </a>
+                    <div class="right menu">
+                        <a class="item">
+                            <i class="sign in icon"></i> Sign in
+                        </a>
+                        <a class="item">
+                            <i class="write icon"></i> Register
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="sixteen wide column">
+                <div class="ui horizontal divider">
+                    <h1 class="ui header">
+                        Myself <span style="font-size: 16px;">| About my biodata</span>
+                    </h1>
+                </div>
+                <p class="ui deskripsi transition hidden">
+                    <span style="font-size: 30px;font-weight: 500;">Hi!</span> My full name is <span style="font-size: 27px;">Abdullah Fahmi</span> (nicknames : fahmi, doel, doelmi). 
+                    I was born on April 30, 1997 in Nganjuk. I have both younger brother and elder sister.
+                    I like to play video games especially <a href="https://www.dota2.com" target="_blank">D<img src="img/dota2.png" class="ui avatar image" style="width: 20px; height: 20px; margin: 0;">ta 2 </a>. And the other games that i play 
+                    are CS:GO, MxM etc. Actually, I wanna be a Youtuber Gaming like Pewdiepie, but
+                    to many hate speech given to me. I decided just play Game for fun only.
+                    <br>
+                    Now, I am studying at University of Trunojoyo Madura, major Informatics Engineering
+                    (a.k.a. Computer Science). I love to program many algorithm that I can fix that.
+                    My special language are Python, Java, PHP.
+                </p>
+
+            </div>
+            <div class="sixteen wide column">
+                <div class="ui horizontal divider">
+                    <h1 class="ui header">
+                        My Projects <span style="font-size: 16px;">| 6 projects</span>
+                    </h1>
+                </div>
+                <div class="ui grid">
+                    <div class="three column row">
+                        <div class="column" style="margin-top: 1rem; margin-bottom: 1rem">
+                            <div class="ui link cards centered" onclick="project_clicked('asasl')">
+                                <div class="card transition hidden">
+                                    <div class="image">
+                                        <img src="img/proj1.jpg">
+                                    </div>
+                                    <div class="content">
+                                        <div class="header">Proyek Pembuatan Aplikasi Waktu Mundur</div>
+                                        <div class="meta">
+                                            <a>Project</a>
+                                        </div>
+                                        <div class="description">
+                                            Aplikasi untuk penghitungan waktu mundur. Berbasis Web (HTML, JS).
+                                        </div>
+                                    </div>
+                                    <div class="extra content">
+                                        <span class="right floated">
+                                            23 December 2017 09:10
+                                        </span>
+                                        <span>
+                                            <i class="bullseye icon"></i>
+                                            75 Views
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sixteen wide column">
+                <div class="ui horizontal divider">
+                    <h1 class="ui header">
+                        My Blog <span style="font-size: 16px;">| Stories of my life</span>
+                    </h1>
+                </div>
+                <div class="blog transition hidden" style="margin-bottom: 20px;">
+
+                    <div class="ui items">
+                        <div class="item">
+                            <div class="image">
+                                <img src="http://4.bp.blogspot.com/-GSd_frKKk3I/VGwQaT3J-qI/AAAAAAAAAyk/FYcJhsPSCus/s1600/DSCF3462x.jpg" alt="">
+                            </div>
+                            <div class="content">
+                                <a class="header">Who is Abdullah Fahmi ? | Siapakah Abdullah Fahmi ?</a>
+                                <div class="meta">
+                                    <span class="cinema">12 December 2017 09.12</span>
+                                </div>
+                                <div class="description">
+                                    <p>
+                                        Perkenalkan nama lengkap saya Abdullah Fahmi. 
+                                        Saya lahir di Kabupaten Nganjuk. Tepatnya tanggal 30 April 1997. 
+                                        Saya anak kedua dari 3 bersaudara. 
+                                        Anak pertama orang tua saya adalah perempuan, dialah kakak saya. 
+                                        Sekarang, dia menuntut ilmu di Kota Pendidikan yaitu DI Yogyakarta. 
+                                        Kuliah mengambil program studi Ilmu Ekonomi di Universitas Gadjah Mada (UGM). 
+                                        Dia kuliah disana sejak tahun 2012. Saya juga mempunyai adik. 
+                                        Dia seorang laki-laki. Sekarang bersekolah di MTsN Nglawak Kertosono. 
+                                        Mulai masuk tahun 2014. 
+                                        Sekolah tersebut adalah sekolah dimana semua saudara kandungku menempuh 
+                                        pendidikan setingkat SLTP disana, termasuk juga aku. 
+                                    </p>
+                                </div>
+                                <div class="extra">
+                                    <div class="ui right floated primary button">
+                                        Read more...
+                                        <i class="right chevron icon"></i>
+                                    </div>
+                                    <div class="ui label">Story</div>
+                                    <div class="ui label">Me</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ui bottom attached green inverted button" tabindex="0">Visit My Blog Page</div>
+                </div>                
+            </div>
+
+
+        </div>
+        <div class="ui grid gambar-bawah">
+            <div class="sixteen wide column">
+                <div class="ui grid centered container">
+                    <div class="three column row">
+                        <div class="column">
+                            <div class="ui horizontal divider">
+                                <h3 class="ui header inverted">
+                                    Usefull Link <span style="font-size: 12px;">| link to other site</span>
+                                </h3>
+                            </div>
+                            <div class="ui list">
+                                <a class="item" target="_blank" href="http://trunojoyo.ac.id">
+                                    <i class="right triangle icon" style="color: white;"></i>
+                                    <div class="content">
+                                        <div class="header" style="color: white;">UTM</div>
+                                        <div class="description" style="color: white;">University of Trunojoyo Madura.</div>
+                                    </div>
+                                </a>
+                                <a class="item" target="_blank" href="http://accounts.trunojoyo.ac.id">
+                                    <i class="right triangle icon" style="color: white;"></i>
+                                    <div class="content">
+                                        <div class="header" style="color: white;">Email Accounts UTM</div>
+                                        <div class="description" style="color: white;">Email Accounts of population of University of Trunojoyo Madura. Hosted on Google Mail.</div>
+                                    </div>
+                                </a>
+                                <a class="item" target="_blank" href="http://pmb.trunojoyo.ac.id">
+                                    <i class="right triangle icon" style="color: white;"></i>
+                                    <div class="content">
+                                        <div class="header" style="color: white;">PMB UTM</div>
+                                        <div class="description" style="color: white;">Penerimaan Mahasiswa Baru of University of Trunojoyo Madura.</div>
+                                    </div>
+                                </a>
+                                <a class="item" target="_blank" href="http://abdullah-fahmi.blogspot.com">
+                                    <i class="right triangle icon" style="color: white;"></i>
+                                    <div class="content">
+                                        <div class="header" style="color: white;">Abdullah Fahmi's Blog</div>
+                                        <div class="description" style="color: white;">My Blog. Hosted on Blooger.</div>
+                                    </div>
+                                </a>
+                                <a class="item" target="_blank" href="http://doelmi.co.vu">
+                                    <i class="right triangle icon" style="color: white;"></i>
+                                    <div class="content">
+                                        <div class="header" style="color: white;">Ilmu Pengetahuan dan Teknologi</div>
+                                        <div class="description" style="color: white;">My Blog about Science and Technology. Hosted on Blooger.</div>
+                                    </div>
+                                </a>
+                                <a class="item" target="_blank" href="http://machinimautm.wordpress.com">
+                                    <i class="right triangle icon" style="color: white;"></i>
+                                    <div class="content">
+                                        <div class="header" style="color: white;">Machinima UTM</div>
+                                        <div class="description" style="color: white;">Our Machinima Team website. Hosted on Wordpress.</div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="ui horizontal divider">
+                                <h3 class="ui header inverted">
+                                    Twitter Feed <span style="font-size: 12px;">| My twitter</span>
+                                </h3>
+                            </div>
+                                <a class="twitter-timeline" data-height="450" href="https://twitter.com/doelmi?ref_src=twsrc%5Etfw">Tweets by doelmi</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        
+                        </div>
+                        <div class="column">
+                            <div class="ui horizontal divider">
+                                <h3 class="ui header inverted">
+                                    Feedback <span style="font-size: 12px;">| Give me your opinion</span>
+                                </h3>
+                            </div>
+                            <form class="ui form">
+                                <div class="required field">
+                                    <label style="color:white;">Name</label>
+                                    <input type="text" name="name" placeholder="Your Name">
+                                </div>
+                                <div class="field">
+                                    <label style="color:white;">Webstite</label>
+                                    <input type="text" name="website" placeholder="Your Website (Optional)">
+                                </div>
+                                <div class="required field">
+                                    <label style="color:white;">Message</label>
+                                    <textarea name="feedback" placeholder="Your Feedback"></textarea>
+                                </div>
+                                <button class="ui button" type="submit">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="ui divider"></div>
+                </div>
+            </div>
+            <div class="sixteen wide column">
+                <div class="tengah">
+                    <button class="ui circular facebook button icon">
+                        <i class="facebook icon"></i>
+                    </button>
+                    <button class="ui circular twitter button icon">
+                        <i class="twitter icon"></i>
+                    </button>
+                    <button class="ui circular google plus button icon">
+                        <i class="google plus icon"></i>
+                    </button>
+                    <button class="ui circular vk button icon">
+                        <i class="vk icon"></i>
+                    </button>
+                    <button class="ui circular linkedin button icon">
+                        <i class="linkedin icon"></i>
+                    </button>
+                    <button class="ui circular instagram button icon">
+                        <i class="instagram icon"></i>
+                    </button>
+                    <button class="ui circular youtube button icon">
+                        <i class="youtube icon"></i>
+                    </button>
+                </div>
+                <p class="ui putih" style="text-align: center;">Copyright <i class="copyright icon fitted"></i> 2017. All Rights Reserved. 
+                    <br><a href="<?= base_url() ?>">Doelmi.id</a></p>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <script src="semantic/dist/semantic.min.js"></script>
+        <script>
+                                $("#getStarted1").click(function () {
+                                    $('.gambar')
+                                            .transition('scale');
+                                });
+
+                                function project_clicked(link) {
+                                    var win = window.open(link, '_blank');
+                                    win.focus();
+                                }
+
+                                $("#getStarted").click(function () {
+                                    $('html, body').animate({
+                                        scrollTop: $("#isi").offset().top
+                                    }, 1000);
+                                });
+
+                                var $window = $(window);
+
+                                $window.on('scroll', function () {
+                                    var scrolled = $window.scrollTop();
+
+                                    if (scrolled >= 300) {
+                                        $('.ui.deskripsi.transition.hidden')
+                                                .transition({
+                                                    animation: 'scale',
+                                                    duration: '2s'
+                                                })
+                                                ;
+                                    }
+                                    if (scrolled >= 1000) {
+                                        $('.blog.transition.hidden')
+                                                .transition({
+                                                    animation: 'scale',
+                                                    duration: '2s'
+                                                })
+                                                ;
+                                    }
+                                    if (scrolled >= 600) {
+                                        $('.card.transition.hidden')
+                                                .transition({
+                                                    animation: 'scale',
+                                                    duration: '2s'
+                                                })
+                                                ;
+                                    }
+                                });
+        </script>
+    </body>
 </html>
+s
