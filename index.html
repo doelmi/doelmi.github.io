@@ -114,38 +114,12 @@ and open the template in the editor.
             <div class="sixteen wide column">
                 <div class="ui horizontal divider">
                     <h1 class="ui header">
-                        My Projects <span style="font-size: 16px;">| 6 projects</span>
+                        My Projects <span style="font-size: 16px;">| <span id='project-counter'></span> projects</span>
                     </h1>
                 </div>
                 <div class="ui grid">
-                    <div class="three column row">
-                        <div class="column" style="margin-top: 1rem; margin-bottom: 1rem">
-                            <div class="ui link cards centered" onclick="project_clicked('asasl')">
-                                <div class="card transition hidden">
-                                    <div class="image">
-                                        <img src="img/proj1.jpg">
-                                    </div>
-                                    <div class="content">
-                                        <div class="header">Proyek Pembuatan Aplikasi Waktu Mundur</div>
-                                        <div class="meta">
-                                            <a>Project</a>
-                                        </div>
-                                        <div class="description">
-                                            Aplikasi untuk penghitungan waktu mundur. Berbasis Web (HTML, JS).
-                                        </div>
-                                    </div>
-                                    <div class="extra content">
-                                        <span class="right floated">
-                                            23 December 2017 09:10
-                                        </span>
-                                        <span>
-                                            <i class="bullseye icon"></i>
-                                            75 Views
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="three column row" id="my-projects">
+
                     </div>
                 </div>
             </div>
@@ -260,8 +234,8 @@ and open the template in the editor.
                                     Twitter Feed <span style="font-size: 12px;">| My twitter</span>
                                 </h3>
                             </div>
-                                <a class="twitter-timeline" data-height="450" href="https://twitter.com/doelmi?ref_src=twsrc%5Etfw">Tweets by doelmi</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                        
+                            <a class="twitter-timeline" data-height="450" href="https://twitter.com/doelmi?ref_src=twsrc%5Etfw">Tweets by doelmi</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
                         </div>
                         <div class="column">
                             <div class="ui horizontal divider">
@@ -320,52 +294,110 @@ and open the template in the editor.
         <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
         <script src="semantic/dist/semantic.min.js"></script>
         <script>
-                                $("#getStarted1").click(function () {
-                                    $('.gambar')
-                                            .transition('scale');
-                                });
+            $("#getStarted1").click(function () {
+                $('.gambar')
+                        .transition('scale');
+            });
 
-                                function project_clicked(link) {
-                                    var win = window.open(link, '_blank');
-                                    win.focus();
-                                }
+            function project_clicked(link) {
+                var win = window.open(link, '_blank');
+                win.focus();
+            }
 
-                                $("#getStarted").click(function () {
-                                    $('html, body').animate({
-                                        scrollTop: $("#isi").offset().top
-                                    }, 1000);
-                                });
+            $("#getStarted").click(function () {
+                $('html, body').animate({
+                    scrollTop: $("#isi").offset().top
+                }, 1000);
+            });
 
-                                var $window = $(window);
+            var $window = $(window);
 
-                                $window.on('scroll', function () {
-                                    var scrolled = $window.scrollTop();
+            $window.on('scroll', function () {
+                var scrolled = $window.scrollTop();
 
-                                    if (scrolled >= 300) {
-                                        $('.ui.deskripsi.transition.hidden')
-                                                .transition({
-                                                    animation: 'scale',
-                                                    duration: '2s'
-                                                })
-                                                ;
-                                    }
-                                    if (scrolled >= 1000) {
-                                        $('.blog.transition.hidden')
-                                                .transition({
-                                                    animation: 'scale',
-                                                    duration: '2s'
-                                                })
-                                                ;
-                                    }
-                                    if (scrolled >= 600) {
-                                        $('.card.transition.hidden')
-                                                .transition({
-                                                    animation: 'scale',
-                                                    duration: '2s'
-                                                })
-                                                ;
-                                    }
-                                });
+                if (scrolled >= 300) {
+                    $('.ui.deskripsi.transition.hidden')
+                            .transition({
+                                animation: 'scale',
+                                duration: '2s'
+                            })
+                            ;
+                }
+                if (scrolled >= 1000) {
+                    $('.blog.transition.hidden')
+                            .transition({
+                                animation: 'scale',
+                                duration: '2s'
+                            })
+                            ;
+                }
+                if (scrolled >= 600) {
+                    $('.card.transition.hidden')
+                            .transition({
+                                animation: 'scale',
+                                duration: '2s'
+                            })
+                            ;
+                }
+            });
+
+            var myprojects = document.getElementById('my-projects');
+            var projectcounter = document.getElementById('project-counter');
+
+            function set_html(url, judul, deskripsi, tanggal, view) {
+                var htmlold = '<div class="column" style="margin-top: 1rem; margin-bottom: 1rem">' +
+                        '<div class="ui link cards centered" onclick="project_clicked(\''+url+'\')">' +
+                        '<div class="card transition hidden">' +
+                        '<div class="image">' +
+                        '<img src="https://www1.bournemouth.ac.uk/sites/default/files/assets/images/student-project-bank-summary.jpg" height="0">' +
+                        '</div>' +
+                        '<div class="content">' +
+                        '<div class="header">'+judul+'</div>' +
+                        '<div class="meta">' +
+                        '<a>Project</a>' +
+                        '</div>' +
+                        '<div class="description">' +
+                            deskripsi+
+                        '</div>' +
+                        '</div>' +
+                        '<div class="extra content">' +
+                        '<span class="right floated">' +
+                            tanggal+
+                        '</span>' +
+                        '<span>' +
+                        '<i class="bullseye icon"></i>' +
+                            view+' Views' +
+                        '</span>' +
+                        '</div>' +
+                        '</div>' +
+                        '</div>' +
+                        '</div>';
+                return htmlold;
+            }
+
+
+
+            jQuery.ajax({
+                url: "https://api.github.com/users/doelmi/repos",
+                type: "GET",
+
+                contentType: 'application/json; charset=utf-8',
+                success: function (resultData) {
+                    //here is your json.
+                    // process it
+                    var htmlnew = '';
+                    for (var i = 0; i < resultData.length; i++) {
+                        htmlnew += set_html(resultData[i]['html_url'], resultData[i]['name'], resultData[i]['description'], resultData[i]['created_at'], resultData[i]['watchers_count']);
+                    }
+                    myprojects.innerHTML = htmlnew;
+                    projectcounter.innerHTML = resultData.length;
+                    console.log(resultData.length);
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                },
+
+                timeout: 120000,
+            });
         </script>
     </body>
 </html>
