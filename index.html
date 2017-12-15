@@ -285,7 +285,7 @@ and open the template in the editor.
             var myprojects = document.getElementById('my-projects');
             var projectcounter = document.getElementById('project-counter');
 
-            function set_html(url, judul, deskripsi, tanggal, view) {
+            function set_html(url, judul, bahasa, deskripsi, tanggal, view) {
                 var htmlold = '<div class="column" style="margin-top: 1rem; margin-bottom: 1rem">' +
                         '<div class="ui link cards centered" onclick="project_clicked(\''+url+'\')">' +
                         '<div class="card transition hidden">' +
@@ -295,7 +295,7 @@ and open the template in the editor.
                         '<div class="content">' +
                         '<div class="header">'+judul+'</div>' +
                         '<div class="meta">' +
-                        '<a>Project</a>' +
+                        '<a>'+bahasa+'</a>' +
                         '</div>' +
                         '<div class="description">' +
                             deskripsi+
@@ -328,7 +328,7 @@ and open the template in the editor.
                     // process it
                     var htmlnew = '';
                     for (var i = 0; i < resultData.length; i++) {
-                        htmlnew += set_html(resultData[i]['html_url'], resultData[i]['name'], resultData[i]['description'], resultData[i]['created_at'], resultData[i]['watchers_count']);
+                        htmlnew += set_html(resultData[i]['html_url'], resultData[i]['name'], resultData[i]['language'], resultData[i]['description'], resultData[i]['created_at'], resultData[i]['watchers_count']);
                     }
                     myprojects.innerHTML = htmlnew;
                     projectcounter.innerHTML = resultData.length;
