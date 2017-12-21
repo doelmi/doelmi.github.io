@@ -54,6 +54,12 @@ and open the template in the editor.
                 text-align: center;
                 margin-bottom: 10px;
             }
+            #isi{
+                margin-bottom: 50px;
+            }
+            .gambar-blog{
+                height: 250px;
+            }
         </style>
     </head>
     <body>
@@ -99,12 +105,11 @@ and open the template in the editor.
                     </h1>
                 </div>
                 <p class="ui deskripsi transition hidden">
-                    <span style="font-size: 30px;font-weight: 500;">Hi!</span> My full name is <span style="font-size: 27px;">Abdullah Fahmi</span> (nicknames : fahmi, doel, doelmi). 
+                    Hi! My full name is <span style="font-size: 27px;">Abdullah Fahmi</span> (nicknames : fahmi, doel, doelmi). 
                     I was born on April 30, 1997 in Nganjuk. I have both younger brother and elder sister.
-                    I like to play video games especially <a href="https://www.dota2.com" target="_blank">D<img src="img/dota2.png" class="ui avatar image" style="width: 20px; height: 20px; margin: 0;">ta 2 </a>. And the other games that i play 
-                    are CS:GO, MxM etc. Actually, I wanna be a Youtuber Gaming like Pewdiepie, but
+                    I like to play video games especially <a href="https://www.dota2.com" target="_blank">Dota 2 </a>. And the other games that I play 
+                    are CS:GO, Warframe etc. Actually, I wanna be a Youtuber Gaming like Pewdiepie, but
                     to many hate speech given to me. I decided just play Game for fun only.
-                    <br>
                     Now, I am studying at University of Trunojoyo Madura, major Informatics Engineering
                     (a.k.a. Computer Science). I love to program many algorithm that I can fix that.
                     My special language are Python, Java, PHP.
@@ -118,18 +123,27 @@ and open the template in the editor.
                     </h1>
                 </div>
                 <div class="ui grid">
-                    <div class="three column row" id="my-projects">
-
+                    <div class="three column row stackable" id="my-projects">
                     </div>
                 </div>
             </div>
-            
 
+            <div class="sixteen wide column">
+                <div class="ui horizontal divider">
+                    <h1 class="ui header">
+                        My Blog <span style="font-size: 16px;">| <span id='project-counter'></span> blogposts</span>
+                    </h1>
+                </div>
+                <div class="ui grid">
+                    <div class="two column row stackable" id="my-blog">
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="ui grid gambar-bawah">
-            <div class="sixteen wide column">
+            <div class="sixteen wide mobile sixteen wide tablet sixteen wide computer column">
                 <div class="ui grid centered container">
-                    <div class="three column row">
+                    <div class="three column row stackable">
                         <div class="column">
                             <div class="ui horizontal divider">
                                 <h3 class="ui header inverted">
@@ -196,9 +210,9 @@ and open the template in the editor.
                                     Instagram Gallery <span style="font-size: 12px;">| My instagram</span>
                                 </h3>
                             </div>
-							<!-- InstaWidget -->
-							<a href="https://instawidget.net/v/user/doelmi" id="link-a6700f055e257dcad42e16187d16a60b4898385e3e6e433e3db5292eca6a5e97">@doelmi</a>
-							<script src="https://instawidget.net/js/instawidget.js?u=a6700f055e257dcad42e16187d16a60b4898385e3e6e433e3db5292eca6a5e97&width=100%"></script>
+                            <!-- InstaWidget -->
+                            <a href="https://instawidget.net/v/user/doelmi" id="link-a6700f055e257dcad42e16187d16a60b4898385e3e6e433e3db5292eca6a5e97">@doelmi</a>
+                            <script src="https://instawidget.net/js/instawidget.js?u=a6700f055e257dcad42e16187d16a60b4898385e3e6e433e3db5292eca6a5e97&width=100%"></script>
                         </div>
                     </div>
                     <div class="ui divider"></div>
@@ -235,127 +249,172 @@ and open the template in the editor.
         <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
         <script src="semantic/dist/semantic.min.js"></script>
         <script>
-            $("#getStarted1").click(function () {
-                $('.gambar')
-                        .transition('scale');
-            });
+                        $("#getStarted1").click(function () {
+                            $('.gambar')
+                                    .transition('scale');
+                        });
 
-            function project_clicked(link) {
-                var win = window.open(link, '_blank');
-                win.focus();
-            }
+                        function project_clicked(link) {
+                            var win = window.open(link, '_blank');
+                            win.focus();
+                        }
 
-            $("#getStarted").click(function () {
-                $('html, body').animate({
-                    scrollTop: $("#isi").offset().top
-                }, 1000);
-            });
+                        $("#getStarted").click(function () {
+                            $('html, body').animate({
+                                scrollTop: $("#isi").offset().top
+                            }, 1000);
+                        });
 
-            var $window = $(window);
+                        var $window = $(window);
 
-            $window.on('scroll', function () {
-                var scrolled = $window.scrollTop();
+                        $window.on('scroll', function () {
+                            var scrolled = $window.scrollTop();
 
-                if (scrolled >= 300) {
-                    $('.ui.deskripsi.transition.hidden')
-                            .transition({
-                                animation: 'scale',
-                                duration: '2s'
-                            })
-                            ;
-                }
-                if (scrolled >= 1000) {
-                    $('.blog.transition.hidden')
-                            .transition({
-                                animation: 'scale',
-                                duration: '2s'
-                            })
-                            ;
-                }
-                if (scrolled >= 600) {
-                    $('.card.transition.hidden')
-                            .transition({
-                                animation: 'scale',
-                                duration: '2s'
-                            })
-                            ;
-                }
-            });
+                            if (scrolled >= 300) {
+                                $('.ui.deskripsi.transition.hidden')
+                                        .transition({
+                                            animation: 'scale',
+                                            duration: '2s'
+                                        })
+                                        ;
+                            }
+                            if (scrolled >= 1000) {
+                                $('.blog.transition.hidden')
+                                        .transition({
+                                            animation: 'scale',
+                                            duration: '2s'
+                                        })
+                                        ;
+                            }
+                            if (scrolled >= 600) {
+                                $('.card.transition.hidden')
+                                        .transition({
+                                            animation: 'scale',
+                                            duration: '2s'
+                                        })
+                                        ;
+                            }
+                        });
 
-            var myprojects = document.getElementById('my-projects');
-            var projectcounter = document.getElementById('project-counter');
+                        var myprojects = document.getElementById('my-projects');
+                        var projectcounter = document.getElementById('project-counter');
 
-            function set_html(url, judul, bahasa, deskripsi, tanggal, view) {
-                var htmlold = '<div class="column" style="margin-top: 1rem; margin-bottom: 1rem">' +
-                        '<div class="ui link cards centered" onclick="project_clicked(\''+url+'\')">' +
-                        '<div class="card transition hidden">' +
-                        '<div class="image">' +
-                        '<img src="https://www1.bournemouth.ac.uk/sites/default/files/assets/images/student-project-bank-summary.jpg" height="0">' +
-                        '</div>' +
-                        '<div class="content">' +
-                        '<div class="header">'+judul+'</div>' +
-                        '<div class="meta">' +
-                        '<a>'+bahasa+'</a>' +
-                        '</div>' +
-                        '<div class="description">' +
-                            deskripsi+
-                        '</div>' +
-                        '</div>' +
-                        '<div class="extra content">' +
-                        '<span class="right floated">' +
-                            tanggal+
-                        '</span>' +
-                        '<span>' +
-                        '<i class="bullseye icon"></i>' +
-                            view+' Views' +
-                        '</span>' +
-                        '</div>' +
-                        '</div>' +
-                        '</div>' +
-                        '</div>';
-                return htmlold;
-            }
+                        var myblog = document.getElementById('my-blog');
+//                        var projectcounter = document.getElementById('project-counter');
 
+                        function set_html(url, judul, bahasa, deskripsi, tanggal, view) {
+                            var htmlold = '<div class="column" style="margin-top: 1rem; margin-bottom: 1rem">' +
+                                    '<div class="ui link cards centered" onclick="project_clicked(\'' + url + '\')">' +
+                                    '<div class="card transition hidden">' +
+                                    '<div class="image">' +
+                                    '<img src="https://www1.bournemouth.ac.uk/sites/default/files/assets/images/student-project-bank-summary.jpg" height="0">' +
+                                    '</div>' +
+                                    '<div class="content">' +
+                                    '<div class="header">' + judul + '</div>' +
+                                    '<div class="meta">' +
+                                    '<a>' + bahasa + '</a>' +
+                                    '</div>' +
+                                    '<div class="description">' +
+                                    deskripsi +
+                                    '</div>' +
+                                    '</div>' +
+                                    '<div class="extra content">' +
+                                    '<span class="right floated">' +
+                                    tanggal +
+                                    '</span>' +
+                                    '<span>' +
+                                    '<i class="bullseye icon"></i>' +
+                                    view + ' Views' +
+                                    '</span>' +
+                                    '</div>' +
+                                    '</div>' +
+                                    '</div>' +
+                                    '</div>';
+                            return htmlold;
+                        }
 
+                        function set_post(judul, gambar, tanggal, url) {
+                            var post = '<div class="column" style="margin-top: 1rem; margin-bottom: 1rem">' +
+                                    '<div class="ui card link" onclick="project_clicked(\'' + url + '\')">' +
+                                    ' <a class="image gambar-blog" style="background-image: url(\'' + gambar + '\'); background-position: center; background-repeat: no-repeat; background-size: cover;">' +
+                                    '</a>' +
+                                    '<div class="content">' +
+                                    '<a class="header">' + judul + '</a>' +
+                                    '<div class="meta">' +
+                                    '<a> Dipublikasikan pada ' + tanggal + '</a>' +
+                                    '</div>' +
+                                    '</div>' +
+                                    '</div>' +
+                                    '</div>';
+                            return post;
+                        }
 
-            jQuery.ajax({
-                url: "https://api.github.com/users/doelmi/repos",
-                type: "GET",
+                        function dateConvert(tanggal) {
+                            var tgl = tanggal.split("T", 1);
+                            var newtanggal = tgl[0].split("-");
+                            var months = [
+                                'Januari', 'Februari', 'Maret', 'April', 'Mei',
+                                'Juni', 'Juli', 'Agustus', 'September',
+                                'Oktober', 'November', 'Desember'
+                            ];
+                            return newtanggal[2] + " " + months[newtanggal[1] - 1] + " " + newtanggal[0];
+                        }
 
-                contentType: 'application/json; charset=utf-8',
-                success: function (resultData) {
-                    //here is your json.
-                    // process it
-                    var htmlnew = '';
-                    for (var i = 0; i < resultData.length; i++) {
-                        htmlnew += set_html(resultData[i]['html_url'], resultData[i]['name'], resultData[i]['language'], resultData[i]['description'], resultData[i]['created_at'], resultData[i]['watchers_count']);
-                    }
-                    myprojects.innerHTML = htmlnew;
-                    projectcounter.innerHTML = resultData.length;
-                    console.log(resultData.length);
-                },
-                error: function (jqXHR, textStatus, errorThrown) {
-                },
+                        function ambilGambarDariContent(content) {
+                            var parser = content.split("src=\"");
+                            var gambar = parser[1].split("\"");
+                            var img = gambar[0];
 
-                timeout: 120000,
-            });
-		
-		jQuery.ajax({
-                url: "https://www.googleapis.com/blogger/v3/blogs/8376355186136368966/posts?key=AIzaSyBOs9V8l1ojKayYTC3eYrGfm8Q-jY73dXs",
-                type: "GET",
+                            return img;
+                        }
 
-                contentType: 'application/json; charset=utf-8',
-                success: function (resultData) {
-                    //here is your json.
-                    // process it
-                    console.log(resultData['items'].length);
-		    console.log(resultData['items']);
-                },
-                error: function (jqXHR, textStatus, errorThrown) {
-                },
+                        jQuery.ajax({
+                            url: "https://api.github.com/users/doelmi/repos",
+                            type: "GET",
 
-                timeout: 120000,
-            });
+                            contentType: 'application/json; charset=utf-8',
+                            success: function (resultData) {
+                                //here is your json.
+                                // process it
+                                var htmlnew = '';
+                                for (var i = 0; i < resultData.length; i++) {
+                                    htmlnew += set_html(resultData[i]['html_url'], resultData[i]['name'], resultData[i]['language'], resultData[i]['description'], resultData[i]['created_at'], resultData[i]['watchers_count']);
+                                }
+                                myprojects.innerHTML = htmlnew;
+                                projectcounter.innerHTML = resultData.length;
+                                console.log(resultData.length);
+                            },
+                            error: function (jqXHR, textStatus, errorThrown) {
+                            },
+
+                            timeout: 120000,
+                        });
+
+                        var newpost = '';
+
+                        jQuery.ajax({
+                            url: "https://www.googleapis.com/blogger/v3/blogs/8376355186136368966/posts?key=AIzaSyBOs9V8l1ojKayYTC3eYrGfm8Q-jY73dXs",
+                            type: "GET",
+
+                            contentType: 'application/json; charset=utf-8',
+                            success: function (resultData) {
+                                //here is your json.
+                                // process it
+
+                                for (var i = 0; i < resultData['items'].length; i++) {
+                                    newpost += set_post(resultData['items'][i]['title'], ambilGambarDariContent(resultData['items'][i]['content']), dateConvert(resultData['items'][i]['published']), resultData['items'][i]['url'])
+                                }
+                                myblog.innerHTML = newpost;
+
+                                var getContent = resultData['items'][0]['content'];
+
+                                console.log(ambilGambarDariContent(getContent));
+                            },
+                            error: function (jqXHR, textStatus, errorThrown) {
+                            },
+
+                            timeout: 120000,
+                        });
         </script>
     </body>
 </html>
