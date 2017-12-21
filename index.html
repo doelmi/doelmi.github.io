@@ -339,6 +339,22 @@ and open the template in the editor.
 
                 timeout: 120000,
             });
+		
+		jQuery.ajax({
+                url: "https://www.googleapis.com/blogger/v3/blogs/8376355186136368966/posts?key=AIzaSyBOs9V8l1ojKayYTC3eYrGfm8Q-jY73dXs",
+                type: "GET",
+
+                contentType: 'application/json; charset=utf-8',
+                success: function (resultData) {
+                    //here is your json.
+                    // process it
+                    console.log(resultData);
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                },
+
+                timeout: 120000,
+            });
         </script>
     </body>
 </html>
