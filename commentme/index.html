@@ -82,6 +82,7 @@
 
                     } else {
                         $('#kirim').attr("disabled", true);
+                        $('#pesan').removeClass("is-invalid");
                         $.ajax({
 
                             url: 'https://script.google.com/macros/s/AKfycbyO1AypsgzgzAj0UWPPBjU2ft1mRCl8vJkhw3NLNFZEhx0ISgtn/exec',
@@ -98,7 +99,6 @@
                                 console.log(data);
                                 $('#peringatan').html("<div class='alert alert-success alert-dismissible fade show' role='alert'><strong>Terimakasih!</strong> Semoga saya menjadi lebih baik.<button type='button' class='close' data-dismiss='alert' aria-label='Tutup'><span aria-hidden='true'>&times;</span></button></div>");
                                 $('#kirim').removeAttr("disabled");
-                                $('#pesan').removeClass("is-invalid");
                                 $('#username').val("");
                                 $('#pesan').val("");
                             },
