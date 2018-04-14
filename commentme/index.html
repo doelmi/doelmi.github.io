@@ -7,10 +7,6 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
-            body{
-                height: 100vh;
-                background-image: url('');
-            }
             .footer {
                 bottom: 0;
                 width: 100%;
@@ -95,6 +91,8 @@
                             dataType: 'json',
 
                             data: object,
+                            
+                            timeout: 5000,
 
                             success: function (data, textStatus, xhr) {
                                 console.log(data);
