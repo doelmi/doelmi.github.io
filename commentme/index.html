@@ -73,8 +73,8 @@
 
                 $('#kirim').click(function () {
                     var object = new Object();
-                    object.username = $('#username').val();
-                    object.pesan = $('#pesan').val();
+                    object.username = $.trim($('#username').val());
+                    object.pesan = $.trim($('#pesan').val());
 
                     if ($.trim($('#pesan').val()).length === 0) {
                         $('#peringatan').html("<div class='alert alert-danger alert-dismissible fade show' role='alert'><strong>Kesalahan!</strong> Pesan harus diisi.<button type='button' class='close' data-dismiss='alert' aria-label='Tutup'><span aria-hidden='true'>&times;</span></button></div>");
