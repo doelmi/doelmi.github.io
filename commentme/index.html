@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='icon' type='image/png' href='https://doelmi.github.io/commentme/commentme.png'>
         <style>
             .footer {
                 bottom: 0;
@@ -73,8 +74,8 @@
 
                 $('#kirim').click(function () {
                     var object = new Object();
-                    object.username = $('#username').val();
-                    object.pesan = $('#pesan').val();
+                    object.username = $.trim($('#username').val());
+                    object.pesan = $.trim($('#pesan').val());
 
                     if ($.trim($('#pesan').val()).length === 0) {
                         $('#peringatan').html("<div class='alert alert-danger alert-dismissible fade show' role='alert'><strong>Kesalahan!</strong> Pesan harus diisi.<button type='button' class='close' data-dismiss='alert' aria-label='Tutup'><span aria-hidden='true'>&times;</span></button></div>");
