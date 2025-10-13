@@ -1,0 +1,31 @@
+{
+    "rainbowColors": [{
+            "en": "Red",
+            "id": "Merah"
+        },
+        {
+            "en": "Orange",
+            "id": "Jingga"
+        },
+        {
+            "en": "Yellow",
+            "id": "Kuning"
+        },
+        {
+            "en": "Green",
+            "id": "Hijau"
+        },
+        {
+            "en": "Blue",
+            "id": "Biru"
+        },
+        {
+            "en": "Indigo",
+            "id": "Nila"
+        },
+        {
+            "en": "Violet",
+            "id": "Ungu"
+        }
+    ]
+}
