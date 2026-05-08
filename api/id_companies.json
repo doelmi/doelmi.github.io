@@ -1,0 +1,57 @@
+[{
+        "company_name": "PT Telekomunikasi Indonesia (Persero) Tbk",
+        "president_director": "Dian Siswarini",
+        "city": "Bandung",
+        "address": "Telkom Landmark Tower, Jakarta / Corporate Headquarters Bandung, West Java",
+        "legal_entity_status": "Persero Tbk"
+    },
+    {
+        "company_name": "PT Pertamina (Persero)",
+        "president_director": "Simon Aloysius Mantiri",
+        "city": "Central Jakarta",
+        "address": "Jl. Medan Merdeka Timur No. 1A, Central Jakarta",
+        "legal_entity_status": "Persero"
+    },
+    {
+        "company_name": "PT Pos Indonesia (Persero)",
+        "president_director": "Faizal Rochmad Djoemadi",
+        "city": "Bandung",
+        "address": "Graha Pos Indonesia, Bandung, West Java",
+        "legal_entity_status": "Persero"
+    },
+    {
+        "company_name": "PT Express Transindo Utama Tbk",
+        "president_director": "Johannes Triatmojo",
+        "city": "Jakarta",
+        "address": "Jakarta, Indonesia",
+        "legal_entity_status": "Tbk"
+    },
+    {
+        "company_name": "PT Hiba Utama",
+        "president_director": "Jacob Irawan",
+        "city": "East Jakarta",
+        "address": "Klender, Duren Sawit, East Jakarta",
+        "legal_entity_status": "PT"
+    },
+    {
+        "company_name": "PT Perusahaan Perdagangan Indonesia (Persero)",
+        "president_director": null,
+        "city": "Central Jakarta",
+        "address": "Graha PPI, Jl. Abdul Muis No. 8, Central Jakarta",
+        "legal_entity_status": "Persero"
+    },
+    {
+        "company_name": "PT Bio Farma (Persero)",
+        "president_director": "Shadiq Akasya",
+        "city": "Bandung",
+        "address": "Jl. Pasteur No. 28, Bandung, West Java",
+        "legal_entity_status": "Persero"
+    },
+    {
+        "company_name": "PT Bank Syariah Indonesia Tbk",
+        "president_director": "Anggoro Eko Cahyo",
+        "city": "South Jakarta",
+        "address": "The Tower, South Jakarta",
+        "legal_entity_status": "Tbk"
+    }
+]

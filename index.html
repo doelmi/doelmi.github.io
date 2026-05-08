@@ -4,35 +4,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Fahmi's Page</title>
+    <title>Fahmi's Futuristic Hub</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Welcome to Fahmi's Page!</h1>
-    <p>Sharing some static json file/api.</p>
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Welcome to Fahmi's Futuristic Hub</h1>
+            <p class="hero-subtitle">Exploring the digital frontier with static APIs and innovative data</p>
+            <div class="hero-glow"></div>
+        </div>
+    </header>
 
-    <table border="1">
-        <tr>
-            <th>
-                No
-            </th>
-            <th>
-                Description
-            </th>
-            <th>
-                Value
-            </th>
-        </tr>
-        <tr>
-            <td>
-                1
-            </td>
-            <td>Rainbow API</td>
-            <td>
-                <a href="api/rainbow.json">rainbow.json</a>
-            </td>
-        </tr>
-    </table>
+    <section class="apis-section">
+        <h2 class="section-title">Available APIs</h2>
+        <div class="api-grid">
+            <div class="api-card">
+                <div class="card-header">
+                    <h3>Rainbow API</h3>
+                    <span class="api-badge">v1.0</span>
+                </div>
+                <p class="api-description">A colorful data endpoint providing rainbow-themed information.</p>
+                <a href="api/rainbow.json" class="api-link">Access API →</a>
+            </div>
+            <div class="api-card">
+                <div class="card-header">
+                    <h3>Animals API</h3>
+                    <span class="api-badge">v1.0</span>
+                </div>
+                <p class="api-description">Static animal data with English, Indonesian, and Latin names.</p>
+                <a href="api/animals.json" class="api-link">Access API →</a>
+            </div>
+            <div class="api-card">
+                <div class="card-header">
+                    <h3>Perusahaan Indonesia API</h3>
+                    <span class="api-badge">v1.0</span>
+                </div>
+                <p class="api-description">Daftar perusahaan Indonesia dengan data statis untuk API.</p>
+                <a href="api/id_companies.json" class="api-link">Access API →</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 Fahmi's Hub | Built with futuristic vision</p>
+    </footer>
 </body>
 
 </html>

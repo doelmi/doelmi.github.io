@@ -1,0 +1,1001 @@
+[{
+        "name_en": "Tiger",
+        "name_id": "Harimau",
+        "latin_name": "Panthera tigris"
+    },
+    {
+        "name_en": "Elephant",
+        "name_id": "Gajah",
+        "latin_name": "Elephas maximus"
+    },
+    {
+        "name_en": "Orangutan",
+        "name_id": "Orangutan",
+        "latin_name": "Pongo pygmaeus"
+    },
+    {
+        "name_en": "Komodo Dragon",
+        "name_id": "Komodo",
+        "latin_name": "Varanus komodoensis"
+    },
+    {
+        "name_en": "Bald Eagle",
+        "name_id": "Elang Botak",
+        "latin_name": "Haliaeetus leucocephalus"
+    },
+    {
+        "name_en": "Lion",
+        "name_id": "Singa",
+        "latin_name": "Panthera leo"
+    },
+    {
+        "name_en": "Cheetah",
+        "name_id": "Cheetah",
+        "latin_name": "Acinonyx jubatus"
+    },
+    {
+        "name_en": "Leopard",
+        "name_id": "Macan Tutul",
+        "latin_name": "Panthera pardus"
+    },
+    {
+        "name_en": "Jaguar",
+        "name_id": "Jaguar",
+        "latin_name": "Panthera onca"
+    },
+    {
+        "name_en": "Snow Leopard",
+        "name_id": "Macan Tutul Salju",
+        "latin_name": "Panthera uncia"
+    },
+    {
+        "name_en": "Lynx",
+        "name_id": "Lynx",
+        "latin_name": "Lynx lynx"
+    },
+    {
+        "name_en": "Gray Wolf",
+        "name_id": "Serigala Abu-abu",
+        "latin_name": "Canis lupus"
+    },
+    {
+        "name_en": "Red Fox",
+        "name_id": "Rubah Merah",
+        "latin_name": "Vulpes vulpes"
+    },
+    {
+        "name_en": "Arctic Fox",
+        "name_id": "Rubah Artik",
+        "latin_name": "Vulpes lagopus"
+    },
+    {
+        "name_en": "Brown Bear",
+        "name_id": "Beruang Cokelat",
+        "latin_name": "Ursus arctos"
+    },
+    {
+        "name_en": "Polar Bear",
+        "name_id": "Beruang Kutub",
+        "latin_name": "Ursus maritimus"
+    },
+    {
+        "name_en": "Panda",
+        "name_id": "Panda",
+        "latin_name": "Ailuropoda melanoleuca"
+    },
+    {
+        "name_en": "Koala",
+        "name_id": "Koala",
+        "latin_name": "Phascolarctos cinereus"
+    },
+    {
+        "name_en": "Kangaroo",
+        "name_id": "Kanguru",
+        "latin_name": "Macropus spp."
+    },
+    {
+        "name_en": "Wallaby",
+        "name_id": "Walabi",
+        "latin_name": "Macropodidae"
+    },
+    {
+        "name_en": "Wombat",
+        "name_id": "Wombat",
+        "latin_name": "Vombatus ursinus"
+    },
+    {
+        "name_en": "Platypus",
+        "name_id": "Platipus",
+        "latin_name": "Ornithorhynchus anatinus"
+    },
+    {
+        "name_en": "Giraffe",
+        "name_id": "Jerapah",
+        "latin_name": "Giraffa camelopardalis"
+    },
+    {
+        "name_en": "Zebra",
+        "name_id": "Zebra",
+        "latin_name": "Equus quagga"
+    },
+    {
+        "name_en": "Horse",
+        "name_id": "Kuda",
+        "latin_name": "Equus ferus caballus"
+    },
+    {
+        "name_en": "Donkey",
+        "name_id": "Keledai",
+        "latin_name": "Equus africanus asinus"
+    },
+    {
+        "name_en": "Camel",
+        "name_id": "Unta",
+        "latin_name": "Camelus dromedarius"
+    },
+    {
+        "name_en": "Bactrian Camel",
+        "name_id": "Unta Bactrian",
+        "latin_name": "Camelus bactrianus"
+    },
+    {
+        "name_en": "Rhinoceros",
+        "name_id": "Badak",
+        "latin_name": "Rhinocerotidae"
+    },
+    {
+        "name_en": "Hippopotamus",
+        "name_id": "Kuda Nil",
+        "latin_name": "Hippopotamus amphibius"
+    },
+    {
+        "name_en": "Moose",
+        "name_id": "Rusa Besar",
+        "latin_name": "Alces alces"
+    },
+    {
+        "name_en": "Deer",
+        "name_id": "Rusa",
+        "latin_name": "Cervidae"
+    },
+    {
+        "name_en": "Elk",
+        "name_id": "Rusa Besar",
+        "latin_name": "Cervus canadensis"
+    },
+    {
+        "name_en": "Reindeer",
+        "name_id": "Rusa Kutub",
+        "latin_name": "Rangifer tarandus"
+    },
+    {
+        "name_en": "Antelope",
+        "name_id": "Antelop",
+        "latin_name": "Antilopinae"
+    },
+    {
+        "name_en": "Bison",
+        "name_id": "Bison",
+        "latin_name": "Bison bison"
+    },
+    {
+        "name_en": "Buffalo",
+        "name_id": "Kerbau",
+        "latin_name": "Bubalus bubalis"
+    },
+    {
+        "name_en": "Yak",
+        "name_id": "Yak",
+        "latin_name": "Bos grunniens"
+    },
+    {
+        "name_en": "Cow",
+        "name_id": "Sapi",
+        "latin_name": "Bos taurus"
+    },
+    {
+        "name_en": "Goat",
+        "name_id": "Kambing",
+        "latin_name": "Capra hircus"
+    },
+    {
+        "name_en": "Sheep",
+        "name_id": "Domba",
+        "latin_name": "Ovis aries"
+    },
+    {
+        "name_en": "Pig",
+        "name_id": "Babi",
+        "latin_name": "Sus scrofa domesticus"
+    },
+    {
+        "name_en": "Wild Boar",
+        "name_id": "Babi Hutan",
+        "latin_name": "Sus scrofa"
+    },
+    {
+        "name_en": "Alpaca",
+        "name_id": "Alpaka",
+        "latin_name": "Vicugna pacos"
+    },
+    {
+        "name_en": "Llama",
+        "name_id": "Llama",
+        "latin_name": "Lama glama"
+    },
+    {
+        "name_en": "Hedgehog",
+        "name_id": "Landak",
+        "latin_name": "Erinaceus europaeus"
+    },
+    {
+        "name_en": "Porcupine",
+        "name_id": "Landak Bera",
+        "latin_name": "Erethizon dorsatum"
+    },
+    {
+        "name_en": "Rabbit",
+        "name_id": "Kelinci",
+        "latin_name": "Oryctolagus cuniculus"
+    },
+    {
+        "name_en": "Hare",
+        "name_id": "Kelinci Liar",
+        "latin_name": "Lepus europaeus"
+    },
+    {
+        "name_en": "Squirrel",
+        "name_id": "Tupai",
+        "latin_name": "Sciurus carolinensis"
+    },
+    {
+        "name_en": "Beaver",
+        "name_id": "Berang-berang",
+        "latin_name": "Castor canadensis"
+    },
+    {
+        "name_en": "Otter",
+        "name_id": "Berang-berang Air",
+        "latin_name": "Lutra lutra"
+    },
+    {
+        "name_en": "Raccoon",
+        "name_id": "Rakun",
+        "latin_name": "Procyon lotor"
+    },
+    {
+        "name_en": "Skunk",
+        "name_id": "Skunk",
+        "latin_name": "Mephitis mephitis"
+    },
+    {
+        "name_en": "Mole",
+        "name_id": "Tikus Tanah",
+        "latin_name": "Talpa europaea"
+    },
+    {
+        "name_en": "Bat",
+        "name_id": "Kelelawar",
+        "latin_name": "Chiroptera"
+    },
+    {
+        "name_en": "Kangaroo Rat",
+        "name_id": "Tikus Kanguru",
+        "latin_name": "Dipodomys"
+    },
+    {
+        "name_en": "Armadillo",
+        "name_id": "Armadillo",
+        "latin_name": "Dasypodidae"
+    },
+    {
+        "name_en": "Sloth",
+        "name_id": "Kukang",
+        "latin_name": "Folivora"
+    },
+    {
+        "name_en": "Anteater",
+        "name_id": "Pemangsa Semut",
+        "latin_name": "Myrmecophaga tridactyla"
+    },
+    {
+        "name_en": "Anteater, Tamandua",
+        "name_id": "Tamandua",
+        "latin_name": "Tamandua tetradactyla"
+    },
+    {
+        "name_en": "Pangolin",
+        "name_id": "Trenggiling",
+        "latin_name": "Manis pentadactyla"
+    },
+    {
+        "name_en": "Armadillo Girdled",
+        "name_id": "Armadillo",
+        "latin_name": "Orecintas"
+    },
+    {
+        "name_en": "Platypus",
+        "name_id": "Platipus",
+        "latin_name": "Ornithorhynchus anatinus"
+    },
+    {
+        "name_en": "Penguin",
+        "name_id": "Pinguin",
+        "latin_name": "Spheniscidae"
+    },
+    {
+        "name_en": "Albatross",
+        "name_id": "Albatros",
+        "latin_name": "Diomedeidae"
+    },
+    {
+        "name_en": "Seagull",
+        "name_id": "Camak-camak",
+        "latin_name": "Laridae"
+    },
+    {
+        "name_en": "Pelican",
+        "name_id": "Pelikan",
+        "latin_name": "Pelecanus"
+    },
+    {
+        "name_en": "Flamingo",
+        "name_id": "Flamingo",
+        "latin_name": "Phoenicopterus roseus"
+    },
+    {
+        "name_en": "Swan",
+        "name_id": "Angsa",
+        "latin_name": "Cygnus olor"
+    },
+    {
+        "name_en": "Duck",
+        "name_id": "Bebek",
+        "latin_name": "Anas platyrhynchos"
+    },
+    {
+        "name_en": "Goose",
+        "name_id": "Angsa Kecil",
+        "latin_name": "Anser anser"
+    },
+    {
+        "name_en": "Ostrich",
+        "name_id": "Burung Unta",
+        "latin_name": "Struthio camelus"
+    },
+    {
+        "name_en": "Emu",
+        "name_id": "Emu",
+        "latin_name": "Dromaius novaehollandiae"
+    },
+    {
+        "name_en": "Cassowary",
+        "name_id": "Kaswari",
+        "latin_name": "Casuarius casuarius"
+    },
+    {
+        "name_en": "Toucan",
+        "name_id": "Tukan",
+        "latin_name": "Ramphastos toco"
+    },
+    {
+        "name_en": "Parrot",
+        "name_id": "Nuri",
+        "latin_name": "Psittaciformes"
+    },
+    {
+        "name_en": "Macaw",
+        "name_id": "Macaw",
+        "latin_name": "Ara"
+    },
+    {
+        "name_en": "Cockatoo",
+        "name_id": "Kakatua",
+        "latin_name": "Cacatuidae"
+    },
+    {
+        "name_en": "Hummingbird",
+        "name_id": "Kolibri",
+        "latin_name": "Trochilidae"
+    },
+    {
+        "name_en": "Sparrow",
+        "name_id": "Vereran",
+        "latin_name": "Passer domesticus"
+    },
+    {
+        "name_en": "Crow",
+        "name_id": "Gagak",
+        "latin_name": "Corvus brachyrhynchos"
+    },
+    {
+        "name_en": "Raven",
+        "name_id": "Gagak Besar",
+        "latin_name": "Corvus corax"
+    },
+    {
+        "name_en": "Pigeon",
+        "name_id": "Merpati",
+        "latin_name": "Columba livia"
+    },
+    {
+        "name_en": "Turkey",
+        "name_id": "Ayam Kalkun",
+        "latin_name": "Meleagris gallopavo"
+    },
+    {
+        "name_en": "Peacock",
+        "name_id": "Merak",
+        "latin_name": "Pavo cristatus"
+    },
+    {
+        "name_en": "Hawk",
+        "name_id": "Elang",
+        "latin_name": "Accipitridae"
+    },
+    {
+        "name_en": "Falcon",
+        "name_id": "Alap-alap",
+        "latin_name": "Falco peregrinus"
+    },
+    {
+        "name_en": "Owl",
+        "name_id": "Burung Hantu",
+        "latin_name": "Strigiformes"
+    },
+    {
+        "name_en": "Nightjar",
+        "name_id": "Burung Malam",
+        "latin_name": "Caprimulgidae"
+    },
+    {
+        "name_en": "Woodpecker",
+        "name_id": "Burung Pelatuk",
+        "latin_name": "Picidae"
+    },
+    {
+        "name_en": "Kingfisher",
+        "name_id": "Raja Udang",
+        "latin_name": "Alcedinidae"
+    },
+    {
+        "name_en": "Heron",
+        "name_id": "Bangau",
+        "latin_name": "Ardeidae"
+    },
+    {
+        "name_en": "Crane",
+        "name_id": "Bangau Besar",
+        "latin_name": "Gruidae"
+    },
+    {
+        "name_en": "Flamingo",
+        "name_id": "Flamingo",
+        "latin_name": "Phoenicopteridae"
+    },
+    {
+        "name_en": "Swan",
+        "name_id": "Angsa",
+        "latin_name": "Cygnus"
+    },
+    {
+        "name_en": "Penguin",
+        "name_id": "Pinguin",
+        "latin_name": "Spheniscidae"
+    },
+    {
+        "name_en": "Seal",
+        "name_id": "Anjing Laut",
+        "latin_name": "Pinnipedia"
+    },
+    {
+        "name_en": "Walrus",
+        "name_id": "Seekor Paus",
+        "latin_name": "Odobenus rosmarus"
+    },
+    {
+        "name_en": "Dolphin",
+        "name_id": "Lumba-lumba",
+        "latin_name": "Delphinus delphis"
+    },
+    {
+        "name_en": "Whale",
+        "name_id": "Paus",
+        "latin_name": "Cetacea"
+    },
+    {
+        "name_en": "Shark",
+        "name_id": "Hiu",
+        "latin_name": "Selachimorpha"
+    },
+    {
+        "name_en": "Sea Turtle",
+        "name_id": "Kura-kura Laut",
+        "latin_name": "Cheloniidae"
+    },
+    {
+        "name_en": "Octopus",
+        "name_id": "Cumi-cumi",
+        "latin_name": "Octopoda"
+    },
+    {
+        "name_en": "Squid",
+        "name_id": "Gurita",
+        "latin_name": "Teuthida"
+    },
+    {
+        "name_en": "Jellyfish",
+        "name_id": "Ubiah Laut",
+        "latin_name": "Scyphozoa"
+    },
+    {
+        "name_en": "Starfish",
+        "name_id": "Bintang Laut",
+        "latin_name": "Asteroidea"
+    },
+    {
+        "name_en": "Coral",
+        "name_id": "Karang",
+        "latin_name": "Anthozoa"
+    },
+    {
+        "name_en": "Clownfish",
+        "name_id": "Ikan Badut",
+        "latin_name": "Amphiprioninae"
+    },
+    {
+        "name_en": "Blue Tang",
+        "name_id": "Ikan Biru",
+        "latin_name": "Paracanthurus hepatus"
+    },
+    {
+        "name_en": "Seahorse",
+        "name_id": "Kuda Laut",
+        "latin_name": "Hippocampus"
+    },
+    {
+        "name_en": "Pufferfish",
+        "name_id": "Ikan Buntal",
+        "latin_name": "Tetraodontidae"
+    },
+    {
+        "name_en": "Salmon",
+        "name_id": "Ikan Salmon",
+        "latin_name": "Salmo salar"
+    },
+    {
+        "name_en": "Tuna",
+        "name_id": "Ikan Tuna",
+        "latin_name": "Thunnus"
+    },
+    {
+        "name_en": "Goldfish",
+        "name_id": "Ikan Mas",
+        "latin_name": "Carassius auratus"
+    },
+    {
+        "name_en": "Carp",
+        "name_id": "Ikan Mas Koki",
+        "latin_name": "Cyprinus carpio"
+    },
+    {
+        "name_en": "Cattle",
+        "name_id": "Sapi",
+        "latin_name": "Bos taurus"
+    },
+    {
+        "name_en": "Goose",
+        "name_id": "Angsa Kecil",
+        "latin_name": "Anser"
+    },
+    {
+        "name_en": "Flamingo",
+        "name_id": "Flamingo",
+        "latin_name": "Phoenicopterus"
+    },
+    {
+        "name_en": "Hummingbird",
+        "name_id": "Kolibri",
+        "latin_name": "Trochilidae"
+    },
+    {
+        "name_en": "Macaque",
+        "name_id": "Monyet Ekor Panjang",
+        "latin_name": "Macaca mulatta"
+    },
+    {
+        "name_en": "Baboon",
+        "name_id": "Babi Hutan",
+        "latin_name": "Papio"
+    },
+    {
+        "name_en": "Mandrill",
+        "name_id": "Mandril",
+        "latin_name": "Mandrillus sphinx"
+    },
+    {
+        "name_en": "Chimpanzee",
+        "name_id": "Simpanse",
+        "latin_name": "Pan troglodytes"
+    },
+    {
+        "name_en": "Gorilla",
+        "name_id": "Gorila",
+        "latin_name": "Gorilla gorilla"
+    },
+    {
+        "name_en": "Baboon",
+        "name_id": "Babi Hutan",
+        "latin_name": "Papio anubis"
+    },
+    {
+        "name_en": "Mandrill",
+        "name_id": "Mandril",
+        "latin_name": "Mandrillus sphinx"
+    },
+    {
+        "name_en": "Bonobo",
+        "name_id": "Bonobo",
+        "latin_name": "Pan paniscus"
+    },
+    {
+        "name_en": "Macaque",
+        "name_id": "Monyet Ekor Panjang",
+        "latin_name": "Macaca fascicularis"
+    },
+    {
+        "name_en": "Spider Monkey",
+        "name_id": "Monyet Laba-laba",
+        "latin_name": "Ateles"
+    },
+    {
+        "name_en": "Howler Monkey",
+        "name_id": "Monyet Pengaum",
+        "latin_name": "Alouatta"
+    },
+    {
+        "name_en": "Capuchin",
+        "name_id": "Monyet Capuchin",
+        "latin_name": "Cebus"
+    },
+    {
+        "name_en": "Tamarin",
+        "name_id": "Monyet Tamarin",
+        "latin_name": "Saguinus"
+    },
+    {
+        "name_en": "Sloth Bear",
+        "name_id": "Beruang Kukang",
+        "latin_name": "Melursus ursinus"
+    },
+    {
+        "name_en": "Sun Bear",
+        "name_id": "Beruang Madu",
+        "latin_name": "Helarctos malayanus"
+    },
+    {
+        "name_en": "Pangolin",
+        "name_id": "Trenggiling",
+        "latin_name": "Manis"
+    },
+    {
+        "name_en": "Sea Lion",
+        "name_id": "Singa Laut",
+        "latin_name": "Otariinae"
+    },
+    {
+        "name_en": "Manatee",
+        "name_id": "Duyung",
+        "latin_name": "Trichechus"
+    },
+    {
+        "name_en": "Dolphin",
+        "name_id": "Lumba-lumba",
+        "latin_name": "Delphinidae"
+    },
+    {
+        "name_en": "Porpoise",
+        "name_id": "Porsel",
+        "latin_name": "Phocoenidae"
+    },
+    {
+        "name_en": "Swordfish",
+        "name_id": "Ikan Pedang",
+        "latin_name": "Xiphias gladius"
+    },
+    {
+        "name_en": "Manta Ray",
+        "name_id": "Ikan Pari Raksasa",
+        "latin_name": "Manta birostris"
+    },
+    {
+        "name_en": "Stingray",
+        "name_id": "Ikan Pari",
+        "latin_name": "Dasyatidae"
+    },
+    {
+        "name_en": "Lionfish",
+        "name_id": "Ikan Singa",
+        "latin_name": "Pterois"
+    },
+    {
+        "name_en": "Barracuda",
+        "name_id": "Barakuda",
+        "latin_name": "Sphyraena barracuda"
+    },
+    {
+        "name_en": "Catfish",
+        "name_id": "Ikan Lele",
+        "latin_name": "Siluriformes"
+    },
+    {
+        "name_en": "Swordtail",
+        "name_id": "Ekor Pedang",
+        "latin_name": "Xiphophorus hellerii"
+    },
+    {
+        "name_en": "Betta Fish",
+        "name_id": "Ikan Cupang",
+        "latin_name": "Betta splendens"
+    },
+    {
+        "name_en": "Clownfish",
+        "name_id": "Ikan Badut",
+        "latin_name": "Amphiprioninae"
+    },
+    {
+        "name_en": "Tetra",
+        "name_id": "Tetra",
+        "latin_name": "Characidae"
+    },
+    {
+        "name_en": "Goldfish",
+        "name_id": "Ikan Emas",
+        "latin_name": "Carassius auratus"
+    },
+    {
+        "name_en": "Piranha",
+        "name_id": "Piranha",
+        "latin_name": "Pygocentrus nattereri"
+    },
+    {
+        "name_en": "Alligator",
+        "name_id": "Buaya",
+        "latin_name": "Alligator mississippiensis"
+    },
+    {
+        "name_en": "Crocodile",
+        "name_id": "Buaya",
+        "latin_name": "Crocodylus niloticus"
+    },
+    {
+        "name_en": "Alligator Snapping Turtle",
+        "name_id": "Kura-kura Gigitan",
+        "latin_name": "Macrochelys temminckii"
+    },
+    {
+        "name_en": "Sea Turtle",
+        "name_id": "Kura-kura Laut",
+        "latin_name": "Cheloniidae"
+    },
+    {
+        "name_en": "Gecko",
+        "name_id": "Cicak",
+        "latin_name": "Gekko gecko"
+    },
+    {
+        "name_en": "Komodo Dragon",
+        "name_id": "Komodo",
+        "latin_name": "Varanus komodoensis"
+    },
+    {
+        "name_en": "Iguana",
+        "name_id": "Iguana",
+        "latin_name": "Iguana iguana"
+    },
+    {
+        "name_en": "Chameleon",
+        "name_id": "Kameleon",
+        "latin_name": "Chamaeleonidae"
+    },
+    {
+        "name_en": "Anole",
+        "name_id": "Anole",
+        "latin_name": "Anolis"
+    },
+    {
+        "name_en": "Skink",
+        "name_id": "Skink",
+        "latin_name": "Scincidae"
+    },
+    {
+        "name_en": "Monitor Lizard",
+        "name_id": "Biawak",
+        "latin_name": "Varanus"
+    },
+    {
+        "name_en": "Frog",
+        "name_id": "Kodok",
+        "latin_name": "Anura"
+    },
+    {
+        "name_en": "Toad",
+        "name_id": "Kodok Gurun",
+        "latin_name": "Bufonidae"
+    },
+    {
+        "name_en": "Salamander",
+        "name_id": "Salamander",
+        "latin_name": "Caudata"
+    },
+    {
+        "name_en": "Newt",
+        "name_id": "Kodok Ekor",
+        "latin_name": "Triturus"
+    },
+    {
+        "name_en": "Axolotl",
+        "name_id": "Axolotl",
+        "latin_name": "Ambystoma mexicanum"
+    },
+    {
+        "name_en": "Turtle",
+        "name_id": "Kura-kura",
+        "latin_name": "Testudines"
+    },
+    {
+        "name_en": "Sea Snake",
+        "name_id": "Ular Laut",
+        "latin_name": "Hydrophiinae"
+    },
+    {
+        "name_en": "Python",
+        "name_id": "Ular Sanca",
+        "latin_name": "Pythonidae"
+    },
+    {
+        "name_en": "Boa Constrictor",
+        "name_id": "Boa",
+        "latin_name": "Boa constrictor"
+    },
+    {
+        "name_en": "King Cobra",
+        "name_id": "Ular Kobra",
+        "latin_name": "Ophiophagus hannah"
+    },
+    {
+        "name_en": "Rattlesnake",
+        "name_id": "Ular Berderat",
+        "latin_name": "Crotalus"
+    },
+    {
+        "name_en": "Viper",
+        "name_id": "Ular Berbisa",
+        "latin_name": "Viperidae"
+    },
+    {
+        "name_en": "Anole",
+        "name_id": "Anole",
+        "latin_name": "Anolis carolinensis"
+    },
+    {
+        "name_en": "Bearded Dragon",
+        "name_id": "Naga Bercambang",
+        "latin_name": "Pogona vitticeps"
+    },
+    {
+        "name_en": "Frilled Lizard",
+        "name_id": "Kadal Berpial",
+        "latin_name": "Chlamydosaurus kingii"
+    },
+    {
+        "name_en": "Horned Lizard",
+        "name_id": "Kadal Bertanduk",
+        "latin_name": "Phrynosoma"
+    },
+    {
+        "name_en": "Sea Otter",
+        "name_id": "Berang-berang Laut",
+        "latin_name": "Enhydra lutris"
+    },
+    {
+        "name_en": "Mongoose",
+        "name_id": "Mungus",
+        "latin_name": "Herpestes auropunctatus"
+    },
+    {
+        "name_en": "Meerkat",
+        "name_id": "Meerkat",
+        "latin_name": "Suricata suricatta"
+    },
+    {
+        "name_en": "Hyena",
+        "name_id": "Hiena",
+        "latin_name": "Hyaenidae"
+    },
+    {
+        "name_en": "Jackal",
+        "name_id": "Serigala Emas",
+        "latin_name": "Canis aureus"
+    },
+    {
+        "name_en": "Coyote",
+        "name_id": "Coyot",
+        "latin_name": "Canis latrans"
+    },
+    {
+        "name_en": "Dingo",
+        "name_id": "Dingo",
+        "latin_name": "Canis lupus dingo"
+    },
+    {
+        "name_en": "Fennec Fox",
+        "name_id": "Rubah Fennec",
+        "latin_name": "Vulpes zerda"
+    },
+    {
+        "name_en": "Armadillo",
+        "name_id": "Armadillo",
+        "latin_name": "Dasypus novemcinctus"
+    },
+    {
+        "name_en": "Aye-Aye",
+        "name_id": "Aye-Aye",
+        "latin_name": "Daubentonia madagascariensis"
+    },
+    {
+        "name_en": "Lemur",
+        "name_id": "Lemur",
+        "latin_name": "Lemur catta"
+    },
+    {
+        "name_en": "Tarsier",
+        "name_id": "Tarsius",
+        "latin_name": "Tarsius"
+    },
+    {
+        "name_en": "Flying Fox",
+        "name_id": "Kelelawar Buah",
+        "latin_name": "Pteropus"
+    },
+    {
+        "name_en": "Civet",
+        "name_id": "Musang",
+        "latin_name": "Viverridae"
+    },
+    {
+        "name_en": "Slow Loris",
+        "name_id": "Loris Lambat",
+        "latin_name": "Nycticebus"
+    },
+    {
+        "name_en": "Elephant Seal",
+        "name_id": "Anjing Laut Gajah",
+        "latin_name": "Mirounga angustirostris"
+    },
+    {
+        "name_en": "Orca",
+        "name_id": "Paus Pembunuh",
+        "latin_name": "Orcinus orca"
+    },
+    {
+        "name_en": "Blue Whale",
+        "name_id": "Paus Biru",
+        "latin_name": "Balaenoptera musculus"
+    },
+    {
+        "name_en": "Humpback Whale",
+        "name_id": "Paus Bungkuk",
+        "latin_name": "Megaptera novaeangliae"
+    },
+    {
+        "name_en": "Narwhal",
+        "name_id": "Narwhal",
+        "latin_name": "Monodon monoceros"
+    },
+    {
+        "name_en": "Walrus",
+        "name_id": "Walrus",
+        "latin_name": "Odobenus rosmarus"
+    }
+]
